@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<title>Mad Libs Game</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+</head>
+<body>
+
+<!-- Inputs -->
+<form>
+<h3>Main Character: <input ng-model="main" placeholder="Name"></input></h3>
+</form>
+
+<form>
+<h3>Treasure: <input ng-model="treasure" placeholder="Item"></input></h3>
+</form>
+
+<form>
+<h3>Treasure Adjective: <input ng-model="adjective" placeholder="adjective"></input></h3>
+</form>
+
+<form>
+<h3>Location: <input ng-model="location" placeholder="Place"></input></h3>
+</form>
+
+<form>
+<h3>Tool: <input ng-model="tool" placeholder="Item"></input></h3>
+</form>
+
+<form>
+<h3>Villian: <input ng-model="villian" placeholder="Name"></input></h3>
+</form>
+
+<form>
+<h3>Weapon: <input ng-model="weapon" placeholder="Item"></input></h3>
+</form>
+
+<form>
+<h3>Cute Animal: <input ng-model="animal" placeholder="Animal"></input></h3>
+</form>
+
+<form>
+<h3>Store Name: <input ng-model="store" placeholder="Name"></input></h3>
+</form>
+
+<form>
+<h3>Amount of Money: <input ng-model="money" placeholder="Money"></input></h3>
+</form>
+
+
+<!-- Title -->
+<h2>{{ main }}'s Great {{ treasure }}</h2>
+
+<!-- Story -->
+<p>One day, when <b>{{ main }}</b> was walking through <b>{{ location }}</b>, (s)he came across a big red X on the ground. Thinking there could be buried treasure, <b>{{ main }}</b> took out a <b>{{ tool }}</b> from his/her bag and dug into the ground. It was hard work, but (s)he finally hit something hard! Wiping off the dirt, <b>{{ main }}</b> discovered a <b>{{ adjective }}</b> <b>{{ treasure }}</b>! <b>{{ main }}</b> realized it could be worth a lot of money. Putting it in his/her bag, <b>{{ main }}</b> began walking back home when (s)he suddenly heard a shout. Turning around, <b>{{ main }}</b> found <b>{{ villian }}</b> standing behind him/her! "I've been looking for that <b>{{ treasure }}</b> for ages!" <b>{{ villian }}</b> said." You will give it to me!" As <b>{{ main }}</b> turned and ran, <b>{{ villian }}</b> took out a <b>{{ weapon }}</b> and attacked! <b>{{ main }}</b> doged the blows, then took out his/her <b>{{ tool }}</b> and threw it at <b>{{ villian }}</b>! As <b>{{ villian }}</b> cried out, <b>{{ main }}</b> kept running until (s)he came acros a cute <b>{{ animal }}</b>! Stopping to admire the wonders of life, <b>{{ main }}</b> forgot all about <b>{{ villian }}</b> as (s)he crept up from behind and stoll <b>{{ main }}</b>'s bag! "At last!" <b>{{ villian }}</b> said. "The <b>{{ treasure }}</b> is finally mine!" Opening the bag, <b>{{ villian }}</b> took out the <b>{{ treasure }}</b> and gazed at it in wonder. Suddenly, <b>{{ villian }}</b> cried out. "AAARGH! It's too <b>{{ adjective }}</b>! It burns!" <b>{{ main }}</b> watched as <b>{{ villian }}</b> dropped the <b>{{ treasure }}</b> and turned to dust. Picking up the <b>{{ treasure }}</b>, <b>{{ main }}</b> walked to the nearest <b>{{ store }}</b>, where the owner said he would pay <b>{{ money }}</b> for it!. Using the money, <b>{{ main }}</b> to buy a pet <b>{{ animal }}</b></p>
+
+</body>
+</html>
